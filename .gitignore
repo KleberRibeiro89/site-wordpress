@@ -1,0 +1,48 @@
+# Arquivos do sistema
+.DS_Store
+
+# Diretório de uploads do WordPress
+wp-content/uploads
+
+# Arquivos de configuração do WordPress
+wp-config.php
+
+# Diretório de instalação do WordPress
+wp
+
+# Arquivos temporários e de cache
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/backup-log.php
+wp-content/plugins/hello.php
+
+# Logs
+wp-content/debug.log
+
+# Arquivos de build
+node_modules/
+/dist/
+/build/
+
+# Arquivos de configuração para Node.js, npm, Composer, etc.
+package-lock.json
+composer.lock
+
+# Arquivos de ambiente
+.env
+.env.*
+*.env
+
+# Dependendo do seu ambiente, pode ser necessário adicionar mais entradas
+
+# Ignorar subdiretórios específicos no diretório wp-content/plugins/
+wp-content/plugins/my-custom-plugin/
+wp-content/plugins/my-other-plugin/
+
+./db/auto.cnf
+./db/mysql.sock
+db/mysql.sock
